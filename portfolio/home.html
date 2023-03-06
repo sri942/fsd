@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        body{background-image: url('/portfolio/bgg3.jfif');
+    background-size:cover;
+      background-repeat:no-repeat;}
+  .box {
+  background-color:powderblue;
+  width: 1000px;
+  border: 5px solid mediumslateblue;
+  padding: 30px;
+  margin: 20px;
+  font-size: large;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  align-content: center; 
+}
+        .sqs-block-content{
+            background-color:#3366cc;
+            color:aliceblue;
+            font-family:sofia;
+           padding-bottom: 1%;
+            padding-top: 1%;
+            font-weight: 60;
+    font-size: 22px;
+    letter-spacing: 0em;
+    text-transform: none;
+        }
+        img{
+            margin-left: 35%;
+            margin-right: 30%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            padding: 1%;
+            border: 5px solid #555;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          font-size: larger;
+        }
+        .sl ul{
+            background-color:powderblue;
+        }
+        .social{
+            
+        }
+        li {
+          float: left;
+          font-family:sofia;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: larger;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+          text-decoration: none;
+        }
+        
+        li a.active {
+          text-decoration: none;
+          background-color: #04AA6D;
+        }
+        .social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+  padding-top: 1%; 
+  padding-bottom: 1%;
+  padding-left: 4%;
+  list-style:none;
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:900;
+  font-size:20px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  width:46px;
+  height:46px;
+  text-align:center;
+  margin-right:8px;
+  border-radius: 50%;
+  border:1px black;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+ 
+}
+.social-icons.size-sm a
+{
+  line-height:44px;
+  height:34px;
+  width:34px;
+  font-size:40px;
+}
+.social-icons a.envelope:hover
+{
+  background-color:red
+}
+
+.social-icons a.telegram:hover
+{
+  background-color:#007bb6
+}
+
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+@keyframes myfirst {
+  0%   { left: 0px; }
+  25%  { left: 450px; }
+  50%  {left:450px; }
+  75%  {left: 450px; }
+  100% {left: 450px; }
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+ h2
+{
+  color:#111;
+  font-size:25px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  text-align: center;
+  padding-right:200px;
+  padding-bottom: 15px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display: block;
+}
+.footer-links a
+{
+  color:white;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:none;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  padding-top: 10px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul><br>
+
+          <div>
+            <div style="margin-top:-20px; padding:0px; position: relative;"   >
+            <big><h1 style="color:rgb(42, 61, 208); font-family:algerian;font-size:30px; text-align:center;"><marquee><b>WELCOME<b></marquee></h1></div>
+                
+            </div>
+        <div>
+            
+            <div class="col sqs-col-12 span-12">
+                <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-1c305d55f4d600aa49df">
+                <div class="sqs-block-content">
+
+                <h1 style="text-align:center;white-space:pre-wrap;">I'm  Likitha Naga Sri  <br>  
+        Student at Andhra University College of Engineering for Women</h1>
+                
+                
+                </div></div>
+            </div>
+        </div><br>
+
+
+        <div>
+            <img src="/portfolio/WhatsApp Image 2023-03-04 at 1.38.29 PM.jpeg" width="500" height="600">
+        </div>
+        <div class="box">
+            <p> Hi!<br>
+                           I'm Likitha Naga Sri Pinisetti.I'm currently pursuing 3rd year of graduation at Andhra University College of Engineering for Women,Visakhapatnam.I'm majoring in Computer Science.
+                 
+                 I was born and raised in Undrajavaram and have always been interested in computers.I think they’re so interesting!I did my schooling from Saint Francis DeSales E.M High School,Tanuku.
+                 
+                 I've completed my Intermediate from Sasi Junior College,Tanuku.. 
+
+                 Currently I'm learning Web development course and I want to achieve a good position in software Industry.
+                 
+            </p>
+        </div>
+        <div class="box">
+       
+        <div class="container" style="padding-top: 1%; padding-bottom: 1%;">
+            <div class="row" >
+                <h2><b>Social Media links</b></h2>
+                <center>
+              <div class="col-md-9 col-sm-6 col-xs-12 sl"  style="padding-left: 30%; ">
+                <ul class="social-icons"  >
+                  <li><a class="instagram" href="https://instagram.com/liki9287?igshid=NTE5MzUyOTU="><i class="fa fa-instagram"></i></a></li>
+                  <li><a class="linkedin" href="https://www.linkedin.com/in/likitha-pinisetti-22abba22b"><i class="fa fa-linkedin"></i></a></li>   
+                  <li><a class="telegram" href="https://t.me/contact/1678084496:4FFXS2EP2zi36qzj"><i class="fa fa-telegram"></i></a></li>   
+                  <li><a class="envelope" href="mailto:'likithasri642@gmail.com'"><i class="fa fa-envelope"></i></a></li>   
+
+                </ul>
+            
+              </div>
+            </center>
+            </div>
+        </div>
+          </div><br>
+
+
+        <footer class="site-footer">
+           
+            
+            <div class="container">
+                <div class="row">
+          
+                  <div class="col-xs-6 col-md-12">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                      <li><a class="active" href="home.html">Home</a></li>
+                      <li><a  href="projects.html">Projects</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <hr>
+              </div>
+        </footer>
+</body>
+</html>

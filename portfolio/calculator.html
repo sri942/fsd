@@ -1,0 +1,57 @@
+<html>
+    <head>
+     <script lang="text/javascript">
+
+        function calc()
+        { var n1=Number(document.formcalc.num1.value);
+        var n2=Number(document.formcalc.num2.value);
+        var result=n1+n2;
+        document.formcalc.res.value=result;
+        
+     }
+     function calc1()
+        { var n1=Number(document.formcalc.num1.value);
+        var n2=Number(document.formcalc.num2.value);
+        var result=n1-n2;
+        document.formcalc.res.value=result;
+        
+     }
+     function calc2()
+        { var n1=Number(document.formcalc.num1.value);
+        var n2=Number(document.formcalc.num2.value);
+        var result=n1*n2;
+        document.formcalc.res.value=result;
+        
+     }
+     function calc3()
+        { var n1=Number(document.formcalc.num1.value);
+        var n2=Number(document.formcalc.num2.value);
+        var result=n1/n2;
+        document.formcalc.res.value=result;
+        
+     }
+     </script>
+    </head>
+    <body style="text-align: center; font-size: x-large;">
+      <h2>CALCULATOR</h2>
+      <form name="formcalc">
+      <b> Number1:</b> <input id="n1" name="num1" type="text"  placeholder="enter a number"><br>
+
+      </br>
+      <b>Number2:</b> <input id="n2" name="num2" type="text"  placeholder="enter a number" >  <br>   
+
+      <br>
+      <b>Result:</b> <input id="res" name="res" type="text"  placeholder="result" >     <br>
+
+    </br>
+   
+    <input onClick="calc()" type="button"  value="Add" style="font-size: large;" >
+    <input onClick="calc1()" type="button"  value="Sub" style="font-size: large;" >
+    <input onClick="calc2()" type="button"  value="Mul" style="font-size: large;" >
+    <input onClick="calc3()" type="button"  value="Div" style="font-size: large;" >
+    <input  type="reset"  value="Reset" style="font-size: large;" >
+
+
+   </form>
+    </body>
+</html>
